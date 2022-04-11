@@ -56,7 +56,7 @@ Begin by breaking the requirements down in to deliverables, these can be either 
 
 ### Coding The Application (45 minutes)
 
-At Birdie code quality is extermely important however, the main focus of this exercise is to see how you approach the problem and solve it collaboratively. As the time to deliver this is very limited it's imperative that we are pragmatic in our approach.
+At Birdie code quality is extremely important however, the main focus of this exercise is to see how you approach the problem and solve it collaboratively. As the time to deliver this is very limited it's imperative that we are pragmatic in our approach.
 
 ### Wash-up (5 minutes)
 
