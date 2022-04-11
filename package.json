@@ -1,0 +1,25 @@
+{
+  "name": "birdie-katas",
+  "version": "1.0.0",
+  "description": "A repository containing katas typically used for pair programming interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdiecare/birdie-katas.git"
+  },
+  "author": "birdiecare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/birdiecare/birdie-katas/issues"
+  },
+  "homepage": "https://github.com/birdiecare/birdie-katas#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
