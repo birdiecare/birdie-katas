@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/birdiecare/birdie-katas#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
     "@types/jest": "^27.4.1",
+    "babel-jest": "^29.5.0",
     "jest": "^27.5.1",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
