@@ -11,7 +11,7 @@ describe('.drawBox', () => {
   });
 
   test("should draw a 6x3 box", () => {
-    expect(drawBox(2, 2)).toEqual( `
+    expect(drawBox(6, 3)).toEqual( `
 +------+
 |      |
 |      |
