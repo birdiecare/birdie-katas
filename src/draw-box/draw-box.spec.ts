@@ -2,7 +2,7 @@ import {drawBox} from "./draw-box";
 
 // describe('.drawBox', () => {
 //   test("should draw a 2x2 box", () => {
-//     /*expect(drawBox(2, 2)).toEqual(`
+//     expect(drawBox(2, 2)).toEqual(`
 // +--+
 // |  |
 // |  |
