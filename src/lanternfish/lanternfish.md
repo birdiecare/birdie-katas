@@ -6,7 +6,7 @@
 
 As you're swimming in the sea, you come across a massive school of lanternfish. You get curious about them: they must spawn quickly to reach such large numbers, but how quickly exactly?
 
-A marine biologist friend tells you that lanternfish have a very stable reproduction cycle: a lanterfish spawns a new lanterfish every 7 days. There's one exception: a _newborn_ lanternfish takes an additional two days before its first reproduction cycle, therefore taking 9 days for its first cycle.
+A marine biologist friend tells you that lanternfish have a very stable reproduction cycle: a lanternfish spawns a new lanternfish every 7 days. There's one exception: a _newborn_ lanternfish takes an additional two days before its first reproduction cycle, therefore taking 9 days for its first cycle.
 
 ## Your task
 
