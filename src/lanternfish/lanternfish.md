@@ -8,11 +8,20 @@ As you're swimming in the sea, you come across a massive school of lanternfish. 
 
 A marine biologist friend tells you that lanternfish have a very stable reproduction cycle: a lanternfish spawns a new lanternfish every 7 days. There's one exception: a _newborn_ lanternfish takes an additional two days before its first reproduction cycle, therefore taking 9 days for its first cycle.
 
+You can model each fish as a single number that represents the number of days until it creates a new lanternfish. Suppose you have a lanternfish with an internal timer value of 3:
+
+- After one day, its internal timer would become 2.
+- After another day, its internal timer would become 1.
+- After another day, its internal timer would become 0.
+- After another day, its internal timer would reset to 6, and it would create a new lanternfish with an internal timer of 8.
+- After another day, the first lanternfish would have an internal timer of 5, and the second lanternfish would have an internal timer of 7.
+
 ## Your task
 
 You observed a sample of 5 lanternfish, you know how many days are left until they each spawn a new lanternfish: respectively `3,4,3,1,2`.
 
 By hand, you simulate the growth of this school for a few days:
+
 
 ```
 Initial state: 3,4,3,1,2
