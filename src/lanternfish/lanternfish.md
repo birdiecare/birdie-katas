@@ -46,9 +46,3 @@ After 18 days: 6,0,6,4,5,6,0,1,1,2,6,0,1,1,1,2,2,3,3,4,6,7,8,8,8,8
 ```
 
 It's getting unwieldy to do by hand but you're curious: how many lanternfish would there be after 80 days?
-
-### Let's go further
-
-> Don't bother with this until you have an answer for the previous question.
-
-How many lanternfish would there be after 256 days?
