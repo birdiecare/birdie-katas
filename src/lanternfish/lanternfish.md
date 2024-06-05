@@ -4,9 +4,9 @@
 
 ## The brief
 
-As you're swimming in the sea, you come across a massive school of lanternfish. You get curious about them: they must spawn quickly to reach such large numbers, maybe exponentially quickly?
+You're a marine biologist, studying lanternfish. These are famous for being found in massive numbers: they must spawn quickly to reach such large numbers, maybe exponentially quickly?
 
-A marine biologist friend tells you that lanternfish have a very stable reproduction cycle: a lanternfish spawns a new lanternfish every 7 days. There's one exception: a _newborn_ lanternfish takes an additional two days before its first reproduction cycle, therefore taking 9 days for its first cycle.
+After some research, you find out that they have a very stable reproduction cycle: a lanternfish spawns a new lanternfish every 7 days. There's one exception: a _newborn_ lanternfish takes an additional two days before its first reproduction cycle, therefore taking 9 days for its first cycle.
 
 You can model each fish as a single number that represents the number of days until it creates a new lanternfish. Suppose you have a lanternfish with an internal timer value of 3:
 
