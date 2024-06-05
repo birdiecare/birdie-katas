@@ -45,4 +45,4 @@ After 17 days: 0,1,0,5,6,0,1,2,2,3,0,1,2,2,2,3,3,4,4,5,7,8
 After 18 days: 6,0,6,4,5,6,0,1,1,2,6,0,1,1,1,2,2,3,3,4,6,7,8,8,8,8
 ```
 
-It's getting unwieldy to do by hand but you're curious: how many lanternfish would there be after 80 days?
+It's getting unwieldy to do by hand but you're curious: **how many lanternfish would there be after 80 days?**
