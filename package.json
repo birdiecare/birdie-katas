@@ -4,7 +4,8 @@
   "description": "A repository containing katas typically used for pair programming interviews",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
