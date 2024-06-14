@@ -8,8 +8,6 @@ Your team is looking for a change of pace from the usual projects. This time, th
 
 To ensure high-quality code, your team has decided to apply Tests. Each feature must be thoroughly tested before moving on to the next.
 
-This project is designed as an incremental kata to mirror real-world development processes. Work through each requirement in sequence, and avoid looking ahead to future requirements until the current one is complete.
-
 ## The Backlog
 
 - Basic Box Drawing: The application should be able to draw a basic 2x2 box.
