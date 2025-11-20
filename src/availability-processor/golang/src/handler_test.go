@@ -7,7 +7,6 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/birdiecare/availability-processor-exercise/src/repositories"
-	"github.com/birdiecare/availability-processor-exercise/src/testutil"
 )
 
 const (
@@ -38,7 +37,7 @@ func TestProcessPermanentUnavailabilityEvent(t *testing.T) {
 	}
 
 	// Create repository and processor
-	repo := testutil.NewInMemoryVisitRepository(visits)
+	repo := repositories.NewVisitRepository(visits)
 	eventProcessor := NewEventProcessor(repo)
 
 	// Create a permanent unavailability event starting on Nov 7th
@@ -90,7 +89,7 @@ func TestProcessPermanentUnavailabilityEventStartingAtSameTime(t *testing.T) {
 	}
 
 	// Create repository and processor
-	repo := testutil.NewInMemoryVisitRepository(visits)
+	repo := repositories.NewVisitRepository(visits)
 	eventProcessor := NewEventProcessor(repo)
 
 	// Create a permanent unavailability event starting on Nov 7th
