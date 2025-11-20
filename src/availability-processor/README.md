@@ -27,16 +27,20 @@ Whilst working, please keep in mind the following non-functional requirements:
 * Reliability is vitally important to us. A mistake could lead to a missed visit.
 * We love pairing and will appreciate if you communicate your thinking and progress as you go, as well as adopting a gradual approach which is easy for your pair to understand.
 
-### Task 1: Add Multi-Tenancy Support
+### Task 1: Finish permanent unavailability processing
+
+We have a pending test in our processing of permanent unavailability - it doesn't handle the case where the inactivity period and a visit start at the exact same time. Let's fix it!
+
+### Task 2: Add Multi-Tenancy Support
 
 The current implementation doesn't handle multiple tenants (care agencies). When a caregiver is made inactive in one agency, this should not affect their visits with another agency.
 
 Let's add multi-tenancy support so only visits for a given agency are unassigned. You'll see that `Visit` and `CaregiverPermanentUnavailabilityEvent` already have a `TenantId` property.
 
-### Task 2: Process Absence Events
+### Task 3: Process Absence Events
 
 Currently, only permanent unavailability is supported. We need to add support for **temporary absences** using the `CaregiverAbsenceBookedEvent`. These absences have a start and an end date. If a caregiver is absent, they should be unassigned from any visits during that period.
 
-### Task 3: Invalid Events
+### Task 4: Invalid Events
 
 We cannot rely on all the events that come to us being valid. If an invalid event arrives, we should exit with a non-zero status.

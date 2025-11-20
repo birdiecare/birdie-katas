@@ -30,7 +30,7 @@ func (p *EventProcessor) HandleEvent(event CaregiverPermanentUnavailabilityEvent
 
 	// Unassign all visits that occur after the permanent unavailability starts
 	for _, visit := range visits {
-		if visit.StartTime.After(event.EffectiveFrom) || visit.StartTime.Equal(event.EffectiveFrom) {
+		if visit.StartTime.After(event.EffectiveFrom) {
 			err := p.visitRepo.Unassign(visit.Id, event.CaregiverId)
 			if err != nil {
 				return err
