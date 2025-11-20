@@ -4,9 +4,10 @@ Birdie's platform includes a rostering solution where caregivers are assigned to
 
 ## Getting Started
 
-### Running the Current Implementation
-
 ```bash
+
+cd golang
+
 # Run tests to see current functionality
 go test ./...
 
@@ -18,13 +19,12 @@ go test -v ./src
 
 The system currently handles **permanent unavailability events**. When a caregiver becomes permanently unavailable (e.g., leaves the company, goes on extended leave), the system automatically unassigns them from all upcoming visits starting from the effective date.
 
-Starting from the top, we'll work through the tasks below and expand the processor to handle more requirements.
+Starting from the top, we'll work through the tasks below and expand the processor to handle more requirements. We don't expect to complete all of the tasks - we're much more interested in understanding how you approach a problem.
 
 Whilst working, please keep in mind the following non-functional requirements:
 
 * We value test-driven development and would like to see this used throughout the exercise today.
 * Reliability is vitally important to us. A mistake could lead to a missed visit.
-* We are beginners in Golang - show us what well structured Go code looks like!
 * We love pairing and will appreciate if you communicate your thinking and progress as you go, as well as adopting a gradual approach which is easy for your pair to understand.
 
 ### Task 1: Add Multi-Tenancy Support
