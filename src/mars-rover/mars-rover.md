@@ -6,8 +6,11 @@
 
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet. Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
 
-## Requirements
+The rover operates like a very basic tank. It can move forwards or backwards in a straight line, and it can turn on the spot in 90-degree (quarter circle) turns.
 
+The rover boots up once it lands on a planet, and it is given its landing coordinates (x,y) and the direction it is facing.
+
+## Requirements
 
 - You are given the initial starting point (x,y) of a rover and the direction (N,S,E,W) it is facing.
 - The rover receives a character array of commands.
@@ -18,7 +21,5 @@ You’re part of the team that explores Mars by sending remotely controlled vehi
 
 ## Rules
 
-- Hardcore TDD. No Excuses!
-- Change roles (driver, navigator) after each TDD cycle.
-- No red phases while refactoring.
-- Be careful about edge cases and exceptions. We can not afford to lose a mars rover, just because the developers overlooked a null pointer.
+- TDD please.
+- Consider edge cases and exceptions.
