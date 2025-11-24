@@ -4,15 +4,24 @@ Birdie's platform includes a rostering solution where caregivers are assigned to
 
 ## Getting Started
 
+Having cloned the repo, follow the language-specific instructions:
+
+### Golang
+
+Please have Go 1.25 installed.
+
 ```bash
-
 cd golang
-
-# Run tests to see current functionality
 go test ./...
+```
 
-# Run with verbose output to see test details
-go test -v ./src
+### TypeScript
+
+Please have Node.js 22.x installed, with npm.
+
+```bash
+cd typescript
+npm test
 ```
 
 ## Exercise Tasks
