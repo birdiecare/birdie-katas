@@ -45,8 +45,6 @@ We have a pending test in our processing of permanent unavailability - it doesn'
 
 The current implementation doesn't handle multiple tenants (care agencies). When a caregiver is made inactive in one agency, this should not affect their visits with another agency.
 
-Let's add multi-tenancy support so only visits for a given agency are unassigned. You'll see that `Visit` and `CaregiverPermanentUnavailabilityEvent` already have a `TenantId` property.
-
 ### Task 3: Process Absence Events
 
 Currently, only permanent unavailability is supported. We need to add support for **temporary absences** using the `CaregiverAbsenceBookedEvent`. These absences have a start and an end date. If a caregiver is absent, they should be unassigned from any visits during that period.
