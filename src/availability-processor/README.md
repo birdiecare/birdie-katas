@@ -8,7 +8,7 @@ Having cloned the repo, follow the language-specific instructions:
 
 ### Golang
 
-Please have Go 1.25 installed.
+Prerequisites: Go 1.25
 
 ```bash
 cd golang
@@ -17,7 +17,7 @@ go test ./...
 
 ### TypeScript
 
-Please have Node.js 22.x installed, with npm.
+Prerequisites: Node.js 22.x and npm.
 
 ```bash
 cd typescript
