@@ -1,6 +1,6 @@
 module github.com/birdiecare/availability-processor-exercise
 
-go 1.25.1
+go 1.25
 
 require github.com/stretchr/testify v1.11.1
 

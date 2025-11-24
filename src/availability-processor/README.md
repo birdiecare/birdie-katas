@@ -21,6 +21,7 @@ Please have Node.js 22.x installed, with npm.
 
 ```bash
 cd typescript
+npm install
 npm test
 ```
 
